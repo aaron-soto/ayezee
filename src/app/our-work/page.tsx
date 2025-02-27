@@ -1,5 +1,4 @@
 import { CallToAction } from "@/components/sections/call-to-action";
-import { PageHeader } from "@/components/shared/page-header";
 import { SimpleFeaturesBanner } from "@/components/sections/simple-features";
 import { WorksList } from "@/components/works-list";
 
