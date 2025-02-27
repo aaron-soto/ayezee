@@ -20,7 +20,7 @@ const FooterLink = ({
 
 export const Footer = () => {
   return (
-    <div className="container pt-24">
+    <div className="container md:pt-24">
       <div className="flex justify-between border-y-2 border-black py-2">
         <div className="flex gap-4">
           <FooterLink href="/about">About</FooterLink>

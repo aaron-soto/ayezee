@@ -10,7 +10,6 @@ export const Awards = () => {
         whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.2, delay: 0.2, ease: "easeInOut" }}
-        whileHover={{ scale: 1.1 }}
       >
         <Link href="https://www.designrush.com/">
           <Image
@@ -18,7 +17,7 @@ export const Awards = () => {
             alt="DesignRush"
             width={145}
             height={145}
-            className="rounded-lg"
+            className="rounded-lg hover:scale-110 transition-all duration-200"
           />
         </Link>
       </motion.div>
