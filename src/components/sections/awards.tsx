@@ -1,0 +1,26 @@
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+
+export const Awards = () => {
+  return (
+    <div className="flex justify-center pb-40">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        className="hover:scale-110 transition-all duration-200"
+      >
+        <Link href="https://www.designrush.com/">
+          <Image
+            src="/images/awards/design-rush.png"
+            alt="DesignRush"
+            width={185}
+            height={185}
+            className="rounded-lg"
+          />
+        </Link>
+      </motion.div>
+    </div>
+  );
+};
