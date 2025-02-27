@@ -26,6 +26,19 @@ export const metadata: Metadata = {
     shortcut: "/favicon/favicon.ico",
     apple: "/favicon/apple-touch-icon.png",
   },
+  openGraph: {
+    title: "AyeZee Web Designs | Home",
+    description: "Custom web design and development services",
+    images: [
+      {
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "AyeZee Web Designs",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
