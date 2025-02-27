@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const Awards = () => {
   return (
-    <div className="flex justify-center pb-40">
+    <div className="flex justify-center pb-16 md:pb-40">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -15,8 +15,8 @@ export const Awards = () => {
           <Image
             src="/images/awards/design-rush.png"
             alt="DesignRush"
-            width={185}
-            height={185}
+            width={145}
+            height={145}
             className="rounded-lg"
           />
         </Link>
