@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description: "Custom web design and development services",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AyeZee Web Designs",
