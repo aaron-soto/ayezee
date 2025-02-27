@@ -7,7 +7,7 @@ export default function Page() {
         <h1 className="text-3xl md:text-5xl md:mb-4 text-center font-black">
           Website Checkup
         </h1>
-        <p className="text-center text-base">
+        <p className="text-center mx-4 text-base">
           Get a free website checkup to see how your website is performing.
         </p>
 

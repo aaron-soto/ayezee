@@ -116,7 +116,7 @@ export const Quiz = () => {
 
       <div className="max-w-3xl mx-auto mt-8 md:mt-16">
         <h2 className="text-2xl font-bold">{QUIZ[activeStep].question}</h2>
-        <p className="text-lg mt-4">{QUIZ[activeStep].blurb}</p>
+        <p className="text-lg mt-4 mb-4">{QUIZ[activeStep].blurb}</p>
 
         {QUIZ[activeStep].answers.map((answer, index) => (
           <button
@@ -129,7 +129,7 @@ export const Quiz = () => {
             }
             key={index}
             className={cn(
-              "w-full text-lg bg-white border border-gray-300 rounded-lg p-4 mt-4",
+              "w-full text-lg bg-white border border-gray-300 rounded-lg p-2 md:p-4 mt-4",
               answers.find((a) => a.question === QUIZ[activeStep].question)
                 ?.answer === answer.text && "bg-primary text-white"
             )}
