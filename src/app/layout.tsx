@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="custom-scrollbar">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col relative overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col relative pt-[64px] overflow-x-hidden`}
       >
         <Navbar />
         <main className="flex-1 flex flex-col max-w-[100dvw] overflow-x-hidden">

@@ -40,8 +40,8 @@ export const Navbar = () => {
   return (
     <div
       className={cn(
-        "bg-background z-[10] w-full transition-all duration-300",
-        isScrolled ? "fixed top-0 shadow-lg" : "relative"
+        "bg-background z-[10] fixed top-0 w-full transition-all duration-300",
+        isScrolled && "shadow-lg"
       )}
     >
       <div className="container flex items-center justify-between py-3">
