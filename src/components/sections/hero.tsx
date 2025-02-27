@@ -10,7 +10,7 @@ export const Hero = () => {
           <div></div>
         </div>
       </div>
-      <div className="container relative max-w-4xl text-center py-16 md:pt-32 md:pb-48">
+      <div className="container relative max-w-4xl text-center pt-8 pb-16 md:pt-32 md:pb-48">
         <motion.h1
           initial={{
             scale: 0.8,
@@ -49,10 +49,16 @@ export const Hero = () => {
           viewport={{ once: true }}
           animate={{ scale: 1, opacity: 1, translateY: 0 }}
           transition={{ delay: 0.3 }}
-          className="mt-6"
+          className="mt-6 flex flex-col md:flex-row gap-4 justify-center"
         >
           <Button className="rounded-none px-8 py-6 text-lg" asChild>
             <Link href="/contact">Get Started</Link>
+          </Button>
+          <Button
+            className="rounded-none px-8 py-6 text-lg bg-secondary text-foreground hover:bg-white"
+            asChild
+          >
+            <Link href="/does-my-site-suck">Does your website suck?</Link>
           </Button>
         </motion.div>
       </div>

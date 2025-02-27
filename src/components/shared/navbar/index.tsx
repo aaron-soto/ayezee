@@ -44,7 +44,7 @@ export const Navbar = () => {
         isScrolled && "shadow-lg"
       )}
     >
-      <div className="container flex items-center justify-between py-3">
+      <div className="container flex items-center justify-between py-2">
         <Link href="/">
           <Image
             src="/images/white-ayezee.svg"

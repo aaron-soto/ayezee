@@ -27,21 +27,15 @@ export const WorkPreview = ({
         <Image
           src={work.image}
           alt="img-thumbnail"
-          layout="fill"
+          fill={true}
           quality={100}
           objectFit="cover"
         />
       </Link>
-      <Link href={`/our-work/${work.slug}`}>
-        <h3 className="text-current text-2xl font-semibold mt-6">
-          {work.title}
-        </h3>
+      <Link href={`/our-work/${work.slug}`} className="mt-4">
+        <h3 className="text-current text-2xl font-semibold">{work.title}</h3>
       </Link>
       <p className="text-lg text-current opacity-60">{work.shortDesc}</p>
-      <div className="flex gap-5 text-current opacity-45 mt-4">
-        <span className="text-sm">Web Development</span>
-        <span className="text-sm">Logo & Branding</span>
-      </div>
     </div>
   );
 };

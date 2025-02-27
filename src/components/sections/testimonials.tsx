@@ -104,7 +104,7 @@ export const Testimonials = () => {
           <Image
             src="/images/office.JPG"
             alt="office"
-            layout="fill"
+            fill={true}
             objectFit="cover"
           />
         </div>
