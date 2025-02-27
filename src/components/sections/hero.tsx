@@ -10,7 +10,7 @@ export const Hero = () => {
           <div></div>
         </div>
       </div>
-      <div className="container relative max-w-4xl text-center py-16 md:py-32">
+      <div className="container relative max-w-4xl text-center py-16 md:pt-32 md:pb-48">
         <motion.h1
           initial={{
             scale: 0.8,
