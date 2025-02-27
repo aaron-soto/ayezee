@@ -24,7 +24,7 @@ export const TextAbout = () => {
           viewport={{ once: true }}
           initial={{ opacity: 0, translateX: 20 }}
           whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ delay: 0.1 }}
+          transition={{ delay: 0.2 }}
           className="text-5xl font-bold leading-tight mb-4"
         >
           Unlock Revenue Growth for Your Business
@@ -33,7 +33,7 @@ export const TextAbout = () => {
           viewport={{ once: true }}
           initial={{ opacity: 0, translateX: 20 }}
           whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ delay: 0.2 }}
+          transition={{ delay: 0.4 }}
           className="mb-8 text-lg"
         >
           Veteran-owned and operated, we bring a mission-first mindset to web
@@ -45,16 +45,22 @@ export const TextAbout = () => {
         <motion.p
           initial={{ opacity: 0, translateX: 20 }}
           whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ delay: 0.3 }}
+          transition={{ delay: 0.6 }}
           className="mb-8 text-lg"
         >
           Let&apos;s work together and get you the software that your business
           needs to succeed and go to the next level!
         </motion.p>
 
-        <Button asChild className="rounded-none px-8 py-6 text-lg">
-          <Link href="/about">More About Us</Link>
-        </Button>
+        <motion.div
+          initial={{ opacity: 0, translateX: 20 }}
+          whileInView={{ opacity: 1, translateX: 0 }}
+          transition={{ delay: 0.8 }}
+        >
+          <Button asChild className="rounded-none px-8 py-6 text-lg">
+            <Link href="/about">More About Us</Link>
+          </Button>
+        </motion.div>
       </div>
     </div>
   );

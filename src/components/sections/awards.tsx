@@ -6,10 +6,11 @@ export const Awards = () => {
   return (
     <div className="flex justify-center pt-32">
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="hover:scale-110 transition-all duration-200"
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.2, delay: 0.2, ease: "easeInOut" }}
+        whileHover={{ scale: 1.1 }}
       >
         <Link href="https://www.designrush.com/">
           <Image
