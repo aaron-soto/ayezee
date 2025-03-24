@@ -13,7 +13,7 @@ export const TextAbout = () => {
         className="w-full h-[300px] relative md:h-[600px] -mt-[20%]"
       >
         <Image
-          src="/images/about.jpg"
+          src="/images/ayezee-clients.webp"
           alt="office"
           layout="fill"
           objectFit="cover"

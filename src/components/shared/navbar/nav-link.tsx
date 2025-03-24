@@ -12,8 +12,8 @@ export const NavLink = ({ href, label }: { href: string; label: string }) => {
       <Link
         href={href}
         className={cn(
-          "flex-1 justify-end text-lg text-foreground font-semibold text-[#838383] hover:text-black transition-all",
-          pathname === href && "text-indigo-600 hover:text-indigo-600"
+          "flex-1 justify-end text-base  text-foreground font-semibold text-black hover:text-[#4f37ff] transition-all",
+          pathname === href && "text-[#4f37ff] hover:text-indigo-600"
         )}
       >
         <p>{label}</p>

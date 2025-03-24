@@ -60,7 +60,7 @@ export const Navbar = () => {
             ))}
           </div>
 
-          <Button className="rounded-none px-6 py-5">
+          <Button className="rounded-none px-6 py-5 hover:text-[#4f37ff] border-black hover:bg-white border-[3px] hover:border-[#4f37ff]">
             <Link href="/contact">Get Started</Link>
           </Button>
 

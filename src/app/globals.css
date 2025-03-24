@@ -125,3 +125,7 @@
     }
   }
 }
+
+.h2 {
+  @apply text-2xl font-bold mt-9 mb-2;
+}
