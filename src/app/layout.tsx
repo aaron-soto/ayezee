@@ -3,6 +3,7 @@ import "./globals.css";
 import { Footer } from "@/components/sections/footer";
 import type { Metadata } from "next";
 import { Navbar } from "@/components/shared/navbar";
+import Script from "next/script";
 import ScrollTop from "@/components/scroll-top";
 import localFont from "next/font/local";
 
@@ -58,6 +59,7 @@ export default function RootLayout({
         <Footer />
         <ScrollTop />
       </body>
+      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
     </html>
   );
 }
