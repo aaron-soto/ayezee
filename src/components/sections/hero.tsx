@@ -22,7 +22,7 @@ export const Hero = () => {
           transition={{ delay: 0.1 }}
           className="text-5xl md:text-[74px] font-bold leading-tight"
         >
-          Your website should work as hard as you do
+          Helping Creators Share & Sell Their Work Online.
         </motion.h1>
         <motion.p
           initial={{
