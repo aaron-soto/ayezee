@@ -10,7 +10,7 @@ export const Hero = () => {
           <div></div>
         </div>
       </div>
-      <div className="container relative max-w-4xl text-center pt-8 pb-16 md:pt-32 md:pb-48">
+      <div className="container relative max-w-5xl pt-8 pb-16 md:pt-32 md:pb-48">
         <motion.h1
           initial={{
             scale: 0.8,
@@ -22,7 +22,7 @@ export const Hero = () => {
           transition={{ delay: 0.1 }}
           className="text-5xl md:text-[74px] font-bold leading-tight"
         >
-          Helping Creators Share & Sell Their Work Online.
+          Websites Built to Match the Quality of Your Work.
         </motion.h1>
         <motion.p
           initial={{
@@ -35,10 +35,9 @@ export const Hero = () => {
           transition={{ delay: 0.2 }}
           className="text-lg mt-8 text-foreground"
         >
-          You built your business from the ground up. Your website should
-          reflect that same level of dedication. At AyeZee Web Designs, we
-          create high-performance, professional websites that help businesses
-          grow—without the fluff, gimmicks, or unnecessary complexity.
+          You’re great at what you do—you just need a site that proves it. I
+          work with builders, creators, and craftsmen to create websites that
+          look sharp, load fast, and help you grow.
         </motion.p>
         <motion.div
           initial={{
@@ -49,7 +48,7 @@ export const Hero = () => {
           viewport={{ once: true }}
           animate={{ scale: 1, opacity: 1, translateY: 0 }}
           transition={{ delay: 0.3 }}
-          className="mt-6 flex flex-col md:flex-row gap-4 justify-center"
+          className="mt-6 flex flex-col md:flex-row gap-4 justify-start"
         >
           <Button className="rounded-none px-8 py-6 text-lg" asChild>
             <Link href="/contact">Get Started</Link>
