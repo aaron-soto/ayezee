@@ -35,9 +35,9 @@ export const Hero = () => {
           transition={{ delay: 0.2 }}
           className="text-lg mt-8 text-foreground"
         >
-          You’re great at what you do—you just need a site that proves it. I
+          You’re great at what you do—you just need a website that proves it. I
           work with builders, creators, and craftsmen to create websites that
-          look sharp, load fast, and help you grow.
+          represent their brands and help their businesses grow.
         </motion.p>
         <motion.div
           initial={{

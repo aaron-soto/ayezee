@@ -3,7 +3,7 @@ import { WORKS, Work } from "@/data/works";
 import Image from "next/image";
 import { bigShoudlers } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
-import williamDouglasLogo from "../../../../public/images/logos/william-douglas.svg";
+import williamDouglasLogo from "../../../../public/images/logos/william-douglas-co.svg";
 
 export default function Page() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars

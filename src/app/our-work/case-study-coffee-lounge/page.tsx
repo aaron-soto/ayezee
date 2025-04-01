@@ -2,8 +2,8 @@ import { WORKS, Work } from "@/data/works";
 
 import Image from "next/image";
 import { bigShoudlers } from "@/lib/fonts";
+import caseStudyLogo from "../../../../public/images/logos/case-study-coffee-lounge.svg";
 import { cn } from "@/lib/utils";
-import pasLogo from "../../../../public/images/logos/case-study-coffee-lounge.svg";
 
 export default function Page() {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -29,7 +29,7 @@ export default function Page() {
           <div className="size-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
             <Image
               quality={100}
-              src={pasLogo}
+              src={caseStudyLogo}
               alt="img-thumbnail"
               height={200}
               width={300}

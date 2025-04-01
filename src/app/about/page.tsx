@@ -10,7 +10,7 @@ export default function Page() {
         <div className="container py-8 md:py-24 flex flex-col md:flex-row gap-20">
           <div className="flex flex-1 flex-col items-start">
             <h1 className="text-4xl md:text-7xl font-bold w-full md:max-w-[960px]">
-              Built with Precision. Designed for Results.
+              Built with Precision. Designed to Deliver.
             </h1>
             <h2 className="text-xl md:text-4xl mt-12 font-bold">
               Veteran-Owned. Mission-Focused.
@@ -18,37 +18,41 @@ export default function Page() {
 
             <p className="max-w-2xl text-lg mt-6">
               After serving as an Army Ranger, I started AyeZee Web Designs with
-              the same principles that got me through every mission—strategy,
-              precision, and execution. In a world filled with overpriced
-              agencies and cookie-cutter templates, I set out to do things
-              differently.
+              the same mindset that carried me through every mission—strategy,
+              focus, and follow-through.
             </p>
 
             <p className="max-w-2xl text-lg mt-6">
-              We create clean, high-performance websites that help businesses
-              grow—without the headaches. We keep it simple: clear pricing,
-              direct communication, and websites that actually deliver.
+              I’ve always believed in doing things right, especially when it
+              comes to helping small businesses and creators. A lot of agencies
+              overcharge and overcomplicate things. That’s not my style.
+            </p>
+            <p className="max-w-2xl text-lg mt-6">
+              I work with craftsmen, creators, and small business owners to
+              build websites that are clean, fast, and easy to use. Whether
+              you’re selling products, promoting your brand, or just need a site
+              that actually works—I’ve got you.
             </p>
 
             <h2 className="text-4xl mt-12 font-semibold">Why work with us</h2>
 
             <ul className="max-w-2xl mt-6 flex text-lg flex-col gap-4">
               <li className=" flex items-start gap-3">
-                <Star className="fill-white stroke-indigo-600" size={24} />{" "}
-                Straight Shooter Approach – No jargon, no nonsense. Just clear,
-                honest web development.
+                <Star className="fill-indigo-600 stroke-indigo-600" size={24} />{" "}
+                No Fluff, No Jargon – You’ll always know what you’re getting,
+                what it costs, and how it works.
               </li>
 
               <li className=" flex items-start gap-3">
-                <Star className="fill-white stroke-indigo-600" size={24} />{" "}
-                Veteran-Owned, Mission-Driven – We apply military-level
-                precision to every project.
+                <Star className="fill-indigo-600 stroke-indigo-600" size={24} />{" "}
+                I I Veteran-Owned – I bring a mission-first mindset to every
+                project. Clear goals. Clear execution.
               </li>
 
               <li className=" flex items-start gap-3">
-                <Star className="fill-white stroke-indigo-600" size={24} />{" "}
-                Results That Matter – We don’t just build sites—we build
-                solutions that help businesses grow.
+                <Star className="fill-indigo-600 stroke-indigo-600" size={24} />{" "}
+                Built for Results – I don’t just build pretty sites. I build
+                tools and workflows that help your business grow.
               </li>
             </ul>
           </div>

@@ -3,6 +3,8 @@ export interface Work {
   slug: string;
   title: string;
   website: string;
+  logo: string;
+  featuredColor: string;
   image: string;
   shortDesc: string;
   featured?: boolean;
@@ -21,6 +23,8 @@ export const WORKS: Work[] = [
     slug: "case-study-coffee-lounge",
     title: "Case Study Coffee Lounge",
     website: "https://casestudycoffeelounge.com",
+    logo: "/images/logos/case-study-coffee-lounge.svg",
+    featuredColor: "#000000",
     image: "/images/works/cover-images/case-study-coffee-lounge.jpg",
     shortDesc: "Coffee Shop Website",
     featured: true,
@@ -49,6 +53,8 @@ export const WORKS: Work[] = [
     slug: "purpose-after-sports",
     title: "Purpose After Sports",
     website: "https://purposeaftersports.com",
+    logo: "/images/logos/purpose-after-sports.svg",
+    featuredColor: "#ffde59",
     image: "/images/works/cover-images/purpose-after-sports.jpg",
     shortDesc: "Fitness Community Website",
     date: "Oct '24",
@@ -70,6 +76,8 @@ export const WORKS: Work[] = [
     slug: "william-douglas-co",
     title: "William Douglas Co.",
     website: "https://williamdouglasco.com",
+    logo: "/images/logos/william-douglas-co.svg",
+    featuredColor: "#004aac",
     image: "/images/works/cover-images/william-douglas-co.jpg",
     shortDesc: "Craftsman Portfolio Website",
     date: "Dec '24",

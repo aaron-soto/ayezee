@@ -27,20 +27,20 @@ export const TextAbout = () => {
           transition={{ delay: 0.2 }}
           className="text-5xl font-bold leading-tight mb-4"
         >
-          Unlock Revenue Growth for Your Business
+          Built with Purpose. Just Like Your Business.
         </motion.h2>
         <motion.p
           viewport={{ once: true }}
           initial={{ opacity: 0, translateX: 20 }}
           whileInView={{ opacity: 1, translateX: 0 }}
           transition={{ delay: 0.4 }}
-          className="mb-8 text-lg"
+          className="mb-4 text-lg"
         >
-          Veteran-owned and operated, we bring a mission-first mindset to web
-          development. That means clear communication, efficient execution, and
-          results that speak for themselves. Whether you need a simple site to
-          establish your online presence or a fully custom web solution, we
-          build with purpose.
+          As a veteran-owned studio, we bring a mission-first mindset to every
+          project. You get a custom website specific to your brand with an
+          attention to detail like no other. Whether you&apos;re selling
+          products, showcasing your work, or just need some assistance
+          establishing your online presence, we&apos;ll help you do it right.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, translateX: 20 }}
@@ -48,8 +48,8 @@ export const TextAbout = () => {
           transition={{ delay: 0.6 }}
           className="mb-8 text-lg"
         >
-          Let&apos;s work together and get you the software that your business
-          needs to succeed and go to the next level!
+          Let&apos;s get your business online with a site that reflects the
+          effort you&apos;ve already put in to your brand.
         </motion.p>
 
         <motion.div
