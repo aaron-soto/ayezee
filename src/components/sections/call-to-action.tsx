@@ -22,7 +22,7 @@ export const CallToAction = () => {
               website? Let&apos;s build something that works for you.
             </p>
             <Button className="rounded-none px-6 py-5">
-              <Link href="/about">Get In Touch</Link>
+              <Link href="/contact">Book a Call</Link>
             </Button>
           </div>
         </div>

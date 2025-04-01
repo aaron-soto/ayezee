@@ -14,10 +14,11 @@ export default function Home() {
       <Hero />
       {/* <Video /> */}
       <TextAbout />
-      <Awards />
       <Offers />
       <Works />
       <Testimonials />
+      <Awards />
+      <div className="w-[90vw] h-[2px] mt-8 md:mt-24 bg-black/30 mx-auto"></div>
       <CallToAction />
     </>
   );

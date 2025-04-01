@@ -19,7 +19,7 @@ const OfferItem = ({
 }) => {
   return (
     <AccordionItem value={`item-${num}`}>
-      <AccordionTrigger className="flex items-center justify-start gap-3 hover:no-underline text-2xl py-5 group">
+      <AccordionTrigger className="flex items-center justify-start gap-3 hover:no-underline text-xl py-5 group">
         <span className="mr-2 text-base">
           <Star className="w-6 h-6 text-[#1601ac] fill-current" />
         </span>
@@ -34,7 +34,7 @@ const OfferItem = ({
 
 export const Offers = () => {
   return (
-    <div className="container py-32">
+    <div className="container py-20 md:py-32">
       <h2 className="text-5xl text-center mb-12 font-extrabold max-w-3xl mx-auto">
         How We Help
       </h2>

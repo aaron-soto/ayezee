@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const Awards = () => {
   return (
-    <div className="flex justify-center pt-32">
+    <div className="flex justify-center pt-12 md:pt-24">
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
